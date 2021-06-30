@@ -9,9 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, wo!")
-            .padding()
+        VStack {
+            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
+            }
+            Text("Hello.\nWhy are you so sweet?").padding()
+        }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
